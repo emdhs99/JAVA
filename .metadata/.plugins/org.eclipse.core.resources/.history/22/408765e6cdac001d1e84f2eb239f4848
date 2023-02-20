@@ -1,0 +1,30 @@
+package for문;
+
+import java.util.Scanner;
+
+public class ex02for문예제 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		for (int i = 96; i>72; i--) {
+			System.out.print(i + " ");
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

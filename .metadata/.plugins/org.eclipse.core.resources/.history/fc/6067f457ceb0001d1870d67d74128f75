@@ -1,0 +1,9 @@
+package 이차원배열;
+
+public class ex03이차원배열예제 {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

@@ -1,0 +1,29 @@
+package while문;
+
+import java.util.Scanner;
+
+public class ex05while문예제 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println();
+		int num1 = sc.nextInt();
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

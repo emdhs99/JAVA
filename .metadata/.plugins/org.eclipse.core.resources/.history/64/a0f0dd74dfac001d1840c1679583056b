@@ -1,0 +1,22 @@
+package for문;
+
+public class ex06for문예제bonus {
+
+	public static void main(String[] args) {
+
+		int num1 = 0;
+		int num2 = 0;
+		int num3 = 0;
+		
+		for(int i = 1; i <= 77; i++) {
+			num1 = i ;
+		}
+		
+		for(int i1 = 77; i1 >= 1 ;i1--) {
+			num2 = i1 ;
+		}
+		num3 += (num1 * num2) ;
+		System.out.println(num3);
+	}
+
+}

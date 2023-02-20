@@ -1,0 +1,57 @@
+package for문;
+
+public class ex06for문예제bonus {
+
+	public static void main(String[] args) {
+
+		
+		int num1 = 0; 
+		int num2 = 78; 
+		
+		for(int i = 1; i <= num2; i++) {
+			
+			num1 += (num2 - i) * i;
+		 System.out.print((num2 - i) +"*"+ i + " + ");
+		}
+		System.out.println(num1);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+//		int num1 = 0;
+//		int num2 = 0;
+//		int num3 = 0;
+//		
+//		while(true) {
+//		for(int i = 1; i <= 77; i++) {
+//			num1 += i ;
+//		}
+//		
+//		for(int i1 = 77; i1 >= 1 ;i1--) {
+//			num2 += i1 ;
+//		}
+//		num3 += (num1 * num2) ;
+//		
+//		System.out.println(num3);
+//		if(num1 > 77) {
+//			System.out.println(num3);
+//			break;
+//		}
+//		}
+	}
+
+}

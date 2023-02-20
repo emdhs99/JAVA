@@ -1,0 +1,31 @@
+package 배열;
+
+import java.util.Random;
+
+public class ex03홀수찾기 {
+
+	public static void main(String[] args) {
+		Random ran = new Random();
+		
+		int[] array = new int[5];
+		
+		System.out.print("array에 들어있는 홀수는 : ");
+		
+		int num1 = 0;
+		for(int i = 0; i < array.length;i++) {
+			int num = ran.nextInt(100) +1 ;
+			array[i] = num;
+			if(array[i] % 2 == 1) {
+				System.out.print(array[i] + " ");
+				num1 += i;
+			} else ;
+		}
+		System.out.println("이며 , 총" + num1 + "개 입니다." );
+		
+		
+		
+		
+		
+	}
+
+}

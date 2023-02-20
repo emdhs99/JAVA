@@ -1,0 +1,14 @@
+package for문;
+
+public class ex06for문예제bonus {
+
+	public static void main(String[] args) {
+
+		for(int i = 1; i < 77; i++) {
+			for(int i1 = 77; i>0 ;i--) {
+				System.out.println(i*i1);
+			}
+		}
+	}
+
+}

@@ -1,0 +1,10 @@
+package javafestival3;
+
+public class ex07큰정수N값구하기 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

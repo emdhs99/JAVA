@@ -1,0 +1,20 @@
+package javafestival4;
+
+public class ex03별찍기 {
+
+	public static void main(String[] args) {
+		for (int j = 0; j < 5; j++) {
+
+			for (int t = 5; t > 0; t--) {
+				if (t >= j) {
+					System.out.print(" ");
+				} else {
+					System.out.print("*");
+				}
+			}
+			System.out.println();
+		}
+		
+	}
+
+}

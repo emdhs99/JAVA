@@ -1,0 +1,30 @@
+package 배열;
+
+import java.util.Random;
+
+public class ex04로또번호추첨 {
+
+	public static void main(String[] args) {
+		Random ran = new Random();
+		int[] array = new int[5];
+
+		System.out.println("======로또타임======");
+		System.out.println("이번주 출력 번호는요...!!두근두근두근!!");
+
+		int num = 0;
+		for (int i = 0; i < array.length; i++) {
+			
+			array[i] = ran.nextInt(10) + 1;
+			array[i] =num;
+			for (int j = 0; j < i; j++) {
+
+				if (array[i] == array[j]) {
+					i--;
+					break;
+
+				}
+			}
+			System.out.println(num + " ");
+		}
+	}
+}

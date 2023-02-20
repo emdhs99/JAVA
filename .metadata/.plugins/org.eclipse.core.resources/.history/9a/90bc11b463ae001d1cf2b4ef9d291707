@@ -1,0 +1,53 @@
+package 배열;
+
+import java.util.Random;
+
+public class ex02배열 {
+
+	public static void main(String[] args) {
+		int[] array = new int[5];
+		Random ran = new Random();
+		// 1. 정수형 데이터 5개를 보관할 수 있는 array 배열 생성
+		
+		// 2. 배열의 모든 인덱스 안에 있는 데이터를
+		// 	  랜덤한 값으로 변경(1~10)
+		
+		
+		// 3. 배열 안에 있는 모든 값을 출력하기
+		
+		
+		for(int i = 0; i < 5; i++ ) {
+			int num = ran.nextInt(1,11);
+			array[i] = num;
+			System.out.println(array[i]);
+		}
+		
+		
+//		int num = ran.nextInt(1,11);
+//		int num1 = ran.nextInt(1,11);
+//		int num2 = ran.nextInt(1,11);
+//		int num3 = ran.nextInt(1,11);
+//		int num4 = ran.nextInt(1,11);
+//		
+//		array[0] = num;
+//		array[1] = num1;
+//		array[2] = num2;
+//		array[3] = num3;
+//		array[4] = num4;
+//		
+//		System.out.println(array[0]);
+//		System.out.println(array[1]);
+//		System.out.println(array[2]);
+//		System.out.println(array[3]);
+//		System.out.println(array[4]);
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

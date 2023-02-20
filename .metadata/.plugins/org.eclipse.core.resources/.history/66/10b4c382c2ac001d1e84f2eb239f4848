@@ -1,0 +1,19 @@
+package dowhile문;
+
+import java.util.Scanner;
+
+public class dowhile과제 {
+	public static void main(String[] args) {
+		
+		
+		//현재 몸무게와 목표 몸무게를 입력 받으세요.
+		// 주차별 감량 몸무게를 입력 받으세요.
+		// 현재 몸무게가 목표 몸무게에 달성한다면 축하한다는 문구를 출력하고 종료시켜주세요.
+		
+		
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("현재 몸무게 : ");
+		System.out.println("목표 몸무게 ");
+	}
+}

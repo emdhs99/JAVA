@@ -1,0 +1,15 @@
+package 배열;
+
+import java.util.Random;
+
+public class ex01배열기초 {
+
+	public static void main(String[] args) {
+		int[] numbers = new int[3];
+		Random ran = new Random();
+		
+		int ran1 = ran.nextInt(5);
+		System.out.println(ran1);
+	}
+
+}
